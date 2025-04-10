@@ -1,0 +1,33 @@
+GIT - controllo di versione distribuito
+
+1. Creare all’interno della cartella “ProgettoCognome” la index.html e le cartelle standard di un sito web
+2. Inizializza il repository locale all’interno della cartella
+ProgettoCognome (verifica la creazione della cartella .git)
+3. Configura git impostando username e mail
+4. Modificare la index.html e inserisci un titolo e formattalo con
+una classe CSS (allineamento al centro e sfondo blu).
+5. Verificare lo status del repository. In che stato si trovano i
+file creati??
+
+6. Aggiungi i file alla staging Area ed effettua il primo COMMIT con il messaggio “Titolo Progetto e classe
+titolo Css”
+7. Modifica la index, includi Bootstrap nel progetto, e inserisci una navbar che si compatta ad “hamburger
+menu” sotto i 576px
+8. Verificare lo status del repository. In che stato si trovano i file?
+9. Aggiungere i file alla staging area ed effettuare il COMMIT con il messaggio “Add Navbar Bootstrap”
+10.Creare il file traccia.txt e incollare tutte le richieste della traccia
+11.Verificare lo status e verificare che il file traccia.txt sia un file non ancora trackato
+12.Fare in modo che git ignori le modifiche di questo file e non lo tracci
+o Creare un file .gitignore e al suo interno specificare tutti i file con estensione .txt
+o Verifica lo status -> Il file .txt viene ancora menzionato tra gli untracked? E il file .gitignore?
+o Aggiungere il file .gitignore allo stag e committarlo con il messaggio “gitignore .txt”
+13.Modificare il file traccia.txt e, verificando lo status, assicurarsi che le modifiche fatte non vengano trackate
+14.Consultare i log del progetto
+15.Creare il file script.js e scrivere una semplice istruzione di console.log
+16.Committare il file con il nome “add script.js”
+17.Provare il comando git reset --hard HEAD^. Cosa è successo? Prova ad aiutarti consultando i log del
+progetto e scrivi la tua risposta in un file answer.txt.
+18.Modifica il file .gitignore in modo che vengano ignorati tutti i file .txt ad eccezione di answer.txt.
+19.Committare con il messaggio “edited .gitignore and add answer”
+20. Consegnare su Classroom la cartella compressa del progetto
+21. Fine
